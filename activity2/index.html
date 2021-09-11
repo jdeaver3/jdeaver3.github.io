@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>	
+
+	h1 {
+		color: darkblue;
+		text-align: center;
+		font-family: monospace;
+		font-size: 56px;
+	}
+
+	h2{
+		color: LightBlue;
+		text-align: center;
+		font-family: monospace;
+		font-size: 48px;
+	}
+
+	h3{
+		color: LightBlue;
+		text-align: center;
+		font-family: monospace;
+		font-size: 48px;
+	}
+
+	ul {
+		list-style-position: inside;
+ 		color:LightBlue;
+		font-size: 26px;
+	}
+</style>
+
+<main>
+
+	<link rel="stylesheet" type="text/css" href="Activity2.css">
+
+	<header>
+		<h1 id="top">Jonathan Deaver</h1>
+
+		<h2>Activity 2 - HTML Tables</h2>
+
+
+	</header>
+
+	<body style="background-color:grey;">
+
+	<body>
+		<h3> My Tabular Data</h3>
+		<ol>
+			<li>Bo Benny -	bbenny@hotmail.com - 15 Years of Service</li>
+			<li>Jessica Barnes - JBarnes@live.com - 28 Years of Service</li>
+			<li>Brad Taylor - BradT@gmail.com - 1 Years of Service</li>
+			<li>Emma Flores - EM12@gmail.com - 5 Years of Service</li>
+			<li>Charles Miles - MilesC@yahoo.com - 15 Years of Service</li>
+			<li>Arnold Flyer - Arnold2222@hotmail.com - 21 Years of Service</li>
+			<li>Ashley White - Awhite@gmail.com - 8 Years of Service</li>
+		</ol>
+
+		<h3>Employee Data in Simple Table</h3>
+		<table class="center">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>E-mail</th>
+					<th class="right">Years of Service</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Bo Benny</td>
+					<td>bbenny@hotmail.com</td>
+					<td class="right">15</td>
+				</tr>
+				<tr>
+					<td>Jessica Barnes</td>
+					<td>JBarnes@live.com</td>
+					<td class="right">28</td>
+				</tr>
+				<tr>
+					<td>Brad Taylor</td>
+					<td>BradT@gmail.com</td>
+					<td class="right">1</td>
+				</tr>
+				<tr>
+					<td>Emma Flores</td>
+					<td>EM12@gmail.com</td>
+					<td class="right">5</td>
+				</tr>
+				<tr>
+					<td>Charles Miles</td>
+					<td>MilesC@yahoo.com</td>
+					<td class="right">15</td>
+				</tr>
+				<tr>
+					<td>Arnold Flyer</td>
+					<td>Arnold2222@hotmail.com</td>
+					<td class="right">21</td>
+				</tr>
+				<tr>
+					<td>Ashley White</td>
+					<td>Awhite@gmail.com</td>
+					<td class="right">8</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Employee Data in Complex Table</h3>
+		<figure>
+		<table class="center">
+			<thead>
+				<tr>
+					<th>Category</th>
+					<th>Name</th>
+					<th>E-mail</th>
+					<th>Years of Sevice</th>
+					<th class="right">Salary</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td rowspan="3">Sales</td>
+					<td>Bo Benny</td>
+					<td>bbenny@hotmail.com</td>
+					<td class="right">15</td>
+					<td class="right">$6,200</td>
+				</tr>
+				<tr>
+					<td>Jessica Barnes</td>
+					<td>JBarnes@live.com</td>
+					<td class="right">28</td>
+					<td class="right">$7,500</td>
+				</tr>
+				<tr>
+					<td>Brad Taylor</td>
+					<td>BradT@gmail.com</td>
+					<td class="right">1</td>
+					<td class="right">$3,200</td>
+				</tr>
+				<tr>
+					<td rowspan="3">IT</td>
+					<td>Emma Flores</td>
+					<td>EM12@gmail.com</td>
+					<td class="right">5</td>
+					<td class="right">$3,800</td>
+				</tr>
+				<tr>
+					<td>Charles Miles</td>
+					<td>MilesC@yahoo.com</td>
+					<td class="right">15</td>
+					<td class="right">$5,000</td>
+				</tr>
+				<tr>
+					<td>Arnold Flyer</td>
+					<td>Arnold2222@hotmail.com</td>
+					<td class="right">21</td>
+					<td class="right">$6,400</td>
+				</tr>
+				<tr>
+					<td>Marketing</td>
+					<td>Ashley White</td>
+					<td>Awhite@gmail.com</td>
+					<td class="right">8</td>
+					<td class="right">$5,300</td>
+				</tr>
+				<tr>
+					<td colspan="3">Total Years of Service</td>
+					<td class="right">93</td>
+					<td class="right">$32,900</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+	<figcaption>Table 1</figcaption>
+	</figure>
+</main>
+</html>

@@ -1,0 +1,86 @@
+body
+{	width: 700px;
+	margin:	0 auto;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 30px;
+}
+
+thead
+{	
+	background-color: blue;
+}
+
+ol{
+	color: lightblue
+}
+
+
+h1 {
+	color: darkblue;
+	text-align: center;
+	font-family: monospace;
+	font-size: 56px;
+}
+
+
+h2{
+	color: LightBlue;
+	text-align: center;
+	font-family: monospace;
+	font-size: 48px;
+}
+
+h3{
+	color: LightBlue;
+	text-align: center;
+	font-family: monospace;
+	font-size: 48px;
+}
+
+ul {
+	list-style-position: inside;
+	color:LightBlue;
+	font-size: 26px;
+}
+
+form { 
+	text-align: center;
+}
+
+input[type='number']{
+    width: 350px;
+} 
+
+th, td
+{
+	border: 1px solid black:
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.bluebutton {
+ 	background-color: darkblue
+}
+
+.bluebutton text {
+ 	color: lightblue;
+}
+
+.right
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(odd) td
+{
+	background-color: lightblue;
+}
