@@ -8,11 +8,6 @@ body
 	margin-right: auto;
 }
 
-table {
-	border-collapse: collapse;
-	margin: 30px;
-}
-
 thead
 {	
 	background-color: blue;
@@ -59,14 +54,6 @@ input[type='number']{
     width: 350px;
 } 
 
-th, td
-{
-	border: 1px solid black:
-	padding: .2em 1em .2em .5em;
-	text-align: left;
-	vertical-align: middle;
-}
-
 .bluebutton {
  	background-color: darkblue
 }
@@ -78,9 +65,4 @@ th, td
 .right
 {
 	text-align: right;
-}
-
-tbody tr:nth-child(odd) td
-{
-	background-color: lightblue;
 }

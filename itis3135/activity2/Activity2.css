@@ -1,5 +1,5 @@
 body
-{	width: 700px;
+{	width: 800px;
 	margin:	0 auto;
 }
 
@@ -8,9 +8,15 @@ body
 	margin-right: auto;
 }
 
+th, td
+{
+	border: 10px solid black:
+	text-align: left;
+}
+
 table {
 	border-collapse: collapse;
-	margin: 30px;
+	margin: 60px;
 }
 
 thead
@@ -20,14 +26,6 @@ thead
 
 ol{
 	color: lightblue
-}
-
-th, td
-{
-	border: 1px solid black:
-	padding: .2em 1em .2em .5em;
-	text-align: left;
-	vertical-align: middle;
 }
 
 .right
