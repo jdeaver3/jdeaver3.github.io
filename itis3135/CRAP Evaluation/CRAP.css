@@ -1,0 +1,74 @@
+body
+{	width: 700px;
+	margin:	0 auto;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+thead
+{	
+	background-color: blue;
+}
+
+ol{
+	color: lightblue
+}
+
+
+h1 {
+	color: darkblue;
+	text-align: center;
+	font-family: monospace;
+	font-size: 56px;
+}
+
+
+h2{
+	color: LightBlue;
+	text-align: center;
+	font-family: monospace;
+	font-size: 48px;
+}
+
+h3{
+	color: LightBlue;
+	text-align: center;
+	font-family: monospace;
+	font-size: 48px;
+}
+
+.defaultText{
+	list-style-position: inside;
+	color:LightBlue;
+	font-size: 26px;
+}
+
+ul {
+	list-style-position: inside;
+	color:LightBlue;
+	font-size: 20px;
+}
+
+form { 
+	text-align: center;
+}
+
+input[type='number']{
+    width: 350px;
+} 
+
+.bluebutton {
+ 	background-color: darkblue
+}
+
+.bluebutton text {
+ 	color: lightblue;
+}
+
+.right
+{
+	text-align: right;
+}
