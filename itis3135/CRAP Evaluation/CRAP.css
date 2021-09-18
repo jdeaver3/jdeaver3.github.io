@@ -52,13 +52,6 @@ ul {
 	font-size: 20px;
 }
 
-form { 
-	text-align: center;
-}
-
-input[type='number']{
-    width: 350px;
-} 
 
 .bluebutton {
  	background-color: darkblue
