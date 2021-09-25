@@ -1,0 +1,42 @@
+body
+{	width: 700px;
+	margin:	0 auto;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	color: darkblue;
+	text-align: center;
+	font-family: monospace;
+	font-size: 56px;
+}
+
+
+h2{
+	color: LightBlue;
+	text-align: center;
+	font-family: monospace;
+	font-size: 48px;
+}
+
+h3{
+	color: LightBlue;
+	text-align: center;
+	font-family: monospace;
+	font-size: 48px;
+}
+
+
+form { 
+	text-align: center;
+}
+
+p{
+	color: lightblue;
+	font-size: 36px;
+	text-align: center;
+}
