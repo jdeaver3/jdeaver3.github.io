@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8"/>
+
+	<title>Activity 3</title>
+	<link rel="stylesheet" type="text/css" href="styles/Activity3.css">
+
+	</head>
+
+	<header>
+		<h1 id="top">ITIS-3135 Web App Design and Development</h1>
+		<h2>Jonathan Deaver</h2>
+		<h3>Activity 3 - HTML Forms</h3>
+	</header>
+
+
+		<form action="#">
+    			<input id="name" type="text" size="50" required placeholder="*Enter name"><br>
+
+			<input id="phone" type="number" required placeholder="*Enter phone number"><br>
+
+			<input id="email" type="email" size="50" required placeholder="*Enter email"><br>
+			
+			<input id="optin" type="radio" name="Opt-in-out" required>
+			<label for="optin">*Opt-in for newsletter</label>
+			
+			<input id="optout" type="radio" name="Opt-in-out">
+			<label for="optout">*Opt-out for newsletter</label><br>
+				
+			<input id="notify-phone" type="checkbox" name="notify">
+			<label for="notify-phone">Notify by text</label>
+
+			
+			<input id="notify-email" type="checkbox" name="notify">
+			<label for="notify-email">Notify by email</label><br>
+			
+
+			<label for="notify-length">How often do you want to be notified?</label><br>
+			<select id="notify-length" name="length">
+				<option value="1week">Once a week</option>
+				<option value="1week">Twice a week</option>
+				<option value="1week">Three times a week</option>
+			</select><br>
+			<button type="submit" class="bluebutton">Submit</button>
+  		</form>
+
+		<br>
+
+		<div>
+			<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fjdeaver3%2Factivity3.html"><img alt = "html_validation" src="images/button-valid-html5.gif"></a>
+			<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fjdeaver3%2Fstyles%2FActivity3.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"><img alt = "css_validation" src="images/button-valid-css.gif"></a>
+		</div>
+		
+	</body>
+</html>

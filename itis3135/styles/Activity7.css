@@ -1,6 +1,7 @@
 body
 {	width: 700px;
 	margin:	0 auto;
+	background-color:grey;
 }
 
 .center {
@@ -8,15 +9,21 @@ body
 	margin-right: auto;
 }
 
-thead
-{	
-	background-color: blue;
+.calc_keys{
+	display: grid;
+	display: inline-grid;
+	height:100px;
+	width:100px;
+	font-size: 36px;
 }
 
-ol{
-	color: lightblue
+.gridChar{
+	display: grid;
+	display: inline-grid;
+	height:100px;
+	width:100px;
+	font-size: 36px;
 }
-
 
 h1 {
 	color: darkblue;
@@ -40,29 +47,17 @@ h3{
 	font-size: 48px;
 }
 
-ul {
-	list-style-position: inside;
-	color:LightBlue;
-	font-size: 26px;
-}
 
 form { 
 	text-align: center;
 }
 
-input[type='number']{
-    width: 350px;
-} 
-
-.bluebutton {
- 	background-color: darkblue
+div{
+	text-align: center;
 }
 
-.bluebutton text {
- 	color: lightblue;
-}
-
-.right
-{
-	text-align: right;
+p{
+	color: lightblue;
+	font-size: 36px;
+	text-align: center;
 }

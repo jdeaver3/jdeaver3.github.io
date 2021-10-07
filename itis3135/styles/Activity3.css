@@ -1,0 +1,95 @@
+
+
+body
+{	width: 700px;
+	margin:	0 auto;
+	background-color:grey;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+thead
+{	
+	background-color: blue;
+}
+
+ol{
+	color: lightblue
+}
+
+
+h1 {
+	color: darkblue;
+	text-align: center;
+	font-family: monospace;
+	font-size: 56px;
+}
+
+
+h2{
+	color: LightBlue;
+	text-align: center;
+	font-family: monospace;
+	font-size: 48px;
+}
+
+h3{
+	color: LightBlue;
+	text-align: center;
+	font-family: monospace;
+	font-size: 48px;
+}
+
+ul {
+	list-style-position: inside;
+	color:LightBlue;
+	font-size: 26px;
+}
+
+form { 
+	text-align: center;
+}
+
+input[type='number']{
+    width: 355px;
+    border: 2px solid blue;
+    background-color: lightblue;
+    font-family: monospace;
+} 
+
+
+input[type='text']{
+    width: 355px;
+    border: 2px solid blue;
+    background-color: lightblue;
+    font-family: monospace;
+} 
+
+input[type='email']{
+    width: 355px;
+    border: 2px solid blue;
+    background-color: lightblue;
+    font-family: monospace;
+} 
+
+
+.bluebutton {
+ 	background-color: darkblue;
+	color: lightblue;
+}
+
+.bluebutton text {
+ 	color: lightblue;
+}
+
+div{
+	text-align: center;
+}
+
+.right
+{
+	text-align: right;
+}
